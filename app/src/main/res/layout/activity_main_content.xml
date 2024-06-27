@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D0CDCD">
+
+        <ImageButton
+            android:id="@+id/buttonDrawertoggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drawer_menu"
+            android:background="@android:color/transparent"
+            android:padding="5dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Add other content views here -->
+
+</LinearLayout>

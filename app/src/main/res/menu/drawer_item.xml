@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+          android:id="@+id/group1">
+
+        <item
+            android:id="@+id/navMenu"
+            android:icon="@drawable/menu"
+            android:title="Menu" />
+
+        <item
+            android:id="@+id/navCard"
+            android:icon="@drawable/card1"
+            android:title="Card" />
+
+        <item
+            android:id="@+id/navFavorite"
+            android:icon="@drawable/favorite"
+            android:title="Favorite" />
+
+    </group>
+
+    <group android:id="@+id/group2">
+
+        <item
+            android:id="@+id/navOrder"
+            android:icon="@drawable/order"
+            android:title="Ongoing Order" />
+
+        <item
+            android:id="@+id/navHistory"
+            android:icon="@drawable/history"
+            android:title="History" />
+
+        <item
+            android:id="@+id/navFeedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+
+    </group>
+
+    <group  android:id="@+id/group3">
+
+        <item
+            android:id="@+id/navTerms"
+            android:icon="@drawable/terms"
+            android:title="Terms and Conditions" />
+
+        <item
+            android:id="@+id/navContact"
+            android:icon="@drawable/contact"
+            android:title="Contact us" />
+
+        <item
+            android:id="@+id/navShare"
+            android:icon="@drawable/share"
+            android:title="Share" />
+
+    </group>
+
+</menu>
